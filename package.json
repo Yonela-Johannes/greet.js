@@ -1,12 +1,24 @@
 {
   "name": "greet",
   "version": "1.0.0",
-  "description": "",
   "main": "greet.js",
   "type": "module",
   "scripts": {
     "test": "node nodeModules.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yonela-Johannes/greet.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yonela-Johannes/greet.js/issues"
+  },
+  "homepage": "https://github.com/Yonela-Johannes/greet.js#readme",
+  "description": ""
 }
