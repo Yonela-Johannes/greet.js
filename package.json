@@ -1,0 +1,12 @@
+{
+  "name": "greet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "greet.js",
+  "type": "module",
+  "scripts": {
+    "test": "node nodeModules.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
