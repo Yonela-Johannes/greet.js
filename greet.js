@@ -1,8 +1,7 @@
-
+import { greet } from './nodeModules.js'
 import chalk from 'chalk'
+import figlet from 'figlet'
 
-export const greet = (name) => 'Hello' + ' ' + name
-
-export let message = greet('Xola')
-export let styledMessage = chalk.bgGreen.black(greet('Xola'))
-
+console.log(chalk.bgRed(figlet.textSync(greet('Xola'))))
+console.log(chalk.bgMagenta(figlet.textSync(greet('Xola'))))
+console.log(chalk.bgCyan(figlet.textSync(greet('Xola'))))

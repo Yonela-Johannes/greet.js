@@ -1,5 +1,1 @@
-import { message, styledMessage } from './greet.js'
-
-console.log(message)
-
-console.log(styledMessage)
+export const greet = (name) => `Hello ${name}`
